@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    padding: 4% 25%;
+}
+
+.postContainer {
+    background-color: #00003f;
+    width: 400px;
+    border-radius: 50px;
+    border: 2px solid red;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.postContainer p{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.postContainer button{
+    padding: 20px 40px;
+    background-color: yellow;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid red ;
+}
